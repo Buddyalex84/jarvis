@@ -200,4 +200,12 @@ body{
    max-width: 80%;
    width: auto;
  }
+#siri-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ 
+
 
