@@ -38,4 +38,10 @@ $(document).ready(function () {
             sync:true,
         }
     });
+    // mick button click event
+    $('#MicBtn').click(function(){
+        eel.playAssistantSound();
+        $('#Oval').attr("hidden",true);
+        $('#siriwave').attr("hidden",false );
+    });
 });
